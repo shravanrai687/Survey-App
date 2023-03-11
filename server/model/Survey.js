@@ -6,6 +6,7 @@ const getDateWithTime = require('../helper/getDateWithTime');
 
 const surveySchema = new mongoose.Schema({
   title: { type: String },
+  creator: {type: String},
   slug: { type: String },
   status: { type: Boolean },
   image: { type: String },

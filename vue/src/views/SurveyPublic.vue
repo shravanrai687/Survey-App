@@ -19,6 +19,7 @@
         <div class="col-span-5">
           <h1 class="text-3xl mb-3">{{ survey.title }}</h1>
           <p class="text-gray-500 text-sm" v-html="survey.description"></p>
+          
         </div>
       </div>
       <div

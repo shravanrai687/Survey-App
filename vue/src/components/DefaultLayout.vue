@@ -171,6 +171,7 @@ const navigation = [
   { name: "Dashboard", to: { name: "Dashboard" } },
   { name: "Surveys", to: { name: "Surveys" } },
   { name: "Answers", to: { name: "Answers" } },
+  { name: "About", to: { name: "About" } },
 ];
 
 const store = useStore();

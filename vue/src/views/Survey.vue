@@ -91,6 +91,19 @@
             />
           </div>
           <div>
+            <label for="title" class="block text-sm font-medium text-gray-700"
+              >Creator</label
+            >
+            <input
+              type="text"
+              name="creator"
+              id="creator"
+              v-model="model.creator"
+              autocomplete="survey_creator"
+              class="mt-1 p-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border border-gray-300 rounded-md"
+            />
+          </div>
+          <div>
             <label for="about" class="block text-sm font-medium text-gray-700">
               Description
             </label>
@@ -208,6 +221,7 @@ let canSave = ref(false);
 
 let model = ref({
   title: "",
+  creator:"",
   status: true,
   description: null,
   image: null,

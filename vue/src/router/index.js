@@ -10,7 +10,7 @@ import Surveys from '../views/Surveys.vue';
 import Answer from '../views/Answer.vue';
 import Answers from '../views/Answers.vue';
 import store from '../store';
-
+import About from '../views/About.vue'
 const routes = [
   {
     path: '/view/survey/:id/:slug',
@@ -29,6 +29,7 @@ const routes = [
       { path: '/survey/:id?', name: 'Survey', component: Survey },
       { path: '/answers/:query?', name: 'Answers', component: Answers },
       { path: '/answer/:sid?/:aid?', name: 'Answer', component: Answer },
+      { path: '/about/:sid?/:aid?', name: 'About', component: About},
     ]
   },
   {

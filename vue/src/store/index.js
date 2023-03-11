@@ -15,6 +15,7 @@ const store = createStore({
         totalSurveys:null,
         latestSurvey:{
         title:null,
+        creator:null,
         slug:null,
         status:null,
         image:null,
