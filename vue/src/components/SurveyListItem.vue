@@ -2,7 +2,6 @@
   <div class="flex flex-col py-4 px-6 shadow-md bg-white hover:bg-grey-50 h-[470px]">
     <img :src="survey.image" alt="" class="flex self-center h-48 object-cover" />
     <h4 class="mt-4 text-lg font-bold">{{ survey.title }}</h4>
-    <h4 class="mt-4 text-lg ">{{ survey.creator }}</h4>
     <div v-html="survey.description" class="overflo-hidden flex-1"></div>
 
     <div class="flex justify-between items-center mt-3">
